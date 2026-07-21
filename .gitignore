@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated at runtime by dashboard.py -- not source data
+warehouse_orders.csv
+forecast_output.csv
+optimized_schedule.csv
+
+# OS / editor cruft
+.DS_Store
+.vscode/
